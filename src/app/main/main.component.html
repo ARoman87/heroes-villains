@@ -1,0 +1,13 @@
+<heroes-villains-nav></heroes-villains-nav>
+<heroes-villains-featured></heroes-villains-featured>
+<heroes-villains-search></heroes-villains-search>
+
+
+
+
+<div class="container">
+    <div class="image" *ngFor="let datas of data">
+        <img src="{{datas.images.sm}}" alt="">
+        <p>{{datas.name | uppercase}}</p>
+    </div>
+</div>

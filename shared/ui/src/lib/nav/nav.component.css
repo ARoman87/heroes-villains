@@ -1,0 +1,10 @@
+img {
+    height: 75px;
+    padding: 10px 0;
+}
+
+div {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}

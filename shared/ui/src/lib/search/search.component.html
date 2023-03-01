@@ -1,0 +1,10 @@
+<div class="container">
+    <h3>Search for a Hero or Villain</h3>
+    <div class="searchBar">
+        
+            <input #inputValue type="search" placeholder="Enter Name" (keyup.enter)="getInput(inputValue.value)">
+            <a routerLink="/search-results">Link here</a>
+            <button>Search</button>
+        
+    </div>
+</div>
